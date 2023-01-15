@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body class="fundo">
+    <h1>Calculadora sofrida</h1>
+
+    <div class="calculadora">
+        
+        <p id="data"></p>
+        <p id="hora"></p>
+        <p id="display"></p>
+
+        <table>
+            <tr>
+                <td class="btn-ac"><button>AC</button></td>
+                <td class="btn-ce"><button>CE</button></td>
+                <td class="btn-multiplicacao"><button>*</button></td> 
+                <td class="btn-divisao"><button>/</button></td>
+            </tr>
+            
+            <tr>
+                <td class="btn-7"><button>7</button></td>
+                <td class="btn-8"><button>8</button></td>
+                <td class="btn-9"><button>9</button></td>
+                <td class="btn-soma"><button>+</button></td>
+            </tr>
+            
+            <tr>
+                <td class="btn-4"><button>4</button></td>
+                <td class="btn-5"><button>5</button></td>
+                <td class="btn-6"><button>6</button></td>
+                <td class="btn-subtracao"><button>-</button></td>
+            </tr>
+    
+            <tr>
+                <td class="btn-1"><button>1</button></td>
+                <td class="btn-2"><button>2</button></td>
+                <td class="btn-3"><button>3</button></td>
+                <td class="btn-igual" rowspan="2"><button>=</button></td>
+            </tr>
+    
+            <tr>
+                <td class="btn-0"><button>0</button></td>
+                <td class="btn-ponto"><button>.</button></td>
+                <td class="btn-porcento"><button>%</button></td>
+            </tr>
+    
+        </table>
+    </div>
+    <script src="scripts/controller/calcController.js"></script>
+    <script src="scripts/calculator.js"></script>
+    
+</body>
+</html>
